@@ -1,39 +1,19 @@
 <!-- ABOUT THE PROJECT -->
-## About The Project
 # GetMemberFromM365DynamicsGroup
 
 ## System Requirements
-
 - **PowerShell version**: 7+
 - **Microsoft Graph PowerShell SDK**
 
 ---
 
-## About the Script
-
-**Author**: Fardin Barashi  
-**Title**: `GetMemberFromM365DynamicsGroup`  
-**Version**: 1.0  
-**Release Date**: 2025-04-13  
-**GitHub**: [https://github.com/fardinbarashi](https://github.com/fardinbarashi)
-
----
-
 ## Description
-
 This script connects to **Microsoft Graph** using a **certificate-based App Registration**, and exports all members of a specified **Entra ID (Azure AD) group** to a CSV file.
-
-### Features
-
 - Retrieves all users from a group (handles **pagination** for large groups).
 - Collects user attributes:
-  - Name, email, mobile, business phone, department, location, etc.
+ -- Name, email, mobile, business phone, department, location, etc.
 - Attempts to fetch and include the **user's manager name**.
-- Handles:
-  - Empty values → `null`
-  - Missing attributes → `FieldIsMissing<Attribute>`
-- Outputs:
-  - A CSV of all group members
+
 
 
 ---
@@ -52,14 +32,6 @@ Example content:
 }
 ```
 
-<!-- LICENSE -->
-## License
-Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
-
-
-<!-- CONTACT -->
-## Contact
-Linkedin - [Fardin Barashi](https://www.linkedin.com/in/fardin-barashi-a56310a2/)
 
 
 
